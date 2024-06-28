@@ -4,7 +4,7 @@ import axios  from 'axios'
 function App() {
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
-  const url =`http://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&APPID=f5ee36e101490961951f0d2011fb3cd5`
+  const url =`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&APPID=f5ee36e101490961951f0d2011fb3cd5`
   
   const searchLocation = (event) => {
 
