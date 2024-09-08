@@ -156,3 +156,25 @@ h1 {
     width: 100%;
   }
 }
+@media (max-width: 340px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .App .top {
+    margin-top: 50px;
+  }
+
+  .App .bottom {
+    font-size: 10px;
+    padding: 0.5rem 0;
+  }
+
+  .App input {
+    width: 100%;
+  }
+}
